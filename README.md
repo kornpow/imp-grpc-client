@@ -1,4 +1,4 @@
-# lndgrpc
+# impgrpc
 A python grpc client for Impervious Network ⚡⚡⚡
 
 This is a wrapper around the default grpc interface that handles setting up credentials (including macaroons). An async client is also available to do fun async stuff like listening for invoices in the background. 
@@ -23,15 +23,6 @@ These environment variables are only used when testing node connectivity and/or 
 ```bash
 export CRED_PATH=/path/to/macaroon/and/tls/cert
 export LND_NODE_IP=192.168.1.xx
-
-python3 -m lndgrpc
-
-# You should expect to see:
-#
-# .....
-# .....
-# .....
-# lndgrpc package is installed... Wow it works!
 ```
 
 ## Basic Usage
