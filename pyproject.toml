@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "imp-grpc-client"
-version = "0.0.1"
-description = "An rpc client for IMP (lightning network L3)"
+version = "0.0.2"
+description = "An rpc client for Impervious.AI (lightning network L3)"
 authors = ["Kornpow <test@email.com>"]
 readme = "README.md"
 license = "MIT"
